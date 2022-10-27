@@ -9,6 +9,14 @@ h2, h3, h4 {
     color: darkcyan;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 header {
     background-color: darkcyan;
     text-align: center;
