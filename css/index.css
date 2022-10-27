@@ -59,3 +59,13 @@ main {
     border-left: 3px solid rgb(193, 193, 10);
 }
 
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
