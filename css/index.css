@@ -32,8 +32,20 @@ main {
     flex-wrap: wrap;
 }
 
+.bloqueAnimales:hover h5 {
+    color: rgb(193, 193, 10);
+}
+
 .bloqueAnimales img {
     width: 250px;
     height: 150px;
     object-fit: cover;
+}
+
+.bloqueAnimales h5 {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 8px;
+    transition: 0.3s;
+    border-left: 3px solid rgb(193, 193, 10);
 }
