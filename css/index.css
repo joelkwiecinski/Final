@@ -23,16 +23,17 @@ header h1 {
 }
 
 main {
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
 }
 
 .bloqueAnimales {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.bloqueAnimales:hover h5 {
+.animal:hover h5 {
     color: rgb(193, 193, 10);
 }
 
@@ -49,3 +50,4 @@ main {
     transition: 0.3s;
     border-left: 3px solid rgb(193, 193, 10);
 }
+
