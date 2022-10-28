@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-* {
+body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
@@ -8,22 +8,19 @@
 header {
     background-color: darkcyan;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
 header h1 {
     font-size: 40px;
+    margin: 0;
 }
 
 header h3 {
+    margin: 0;
     font-weight: 300;
-}
-
-.imgPrincipal {
-    max-width: 300px;
-    height: auto;
 }
 
 nav {
@@ -48,6 +45,7 @@ nav a:hover {
 main {
     width: 50vw;
     padding: 50px;
+    margin: 0 auto;
 }
 
 .bloque {
@@ -55,12 +53,29 @@ main {
     margin-bottom: 50px;
 }
 
+.bloque .imgPrincipal {
+    max-width: 300px;
+    height: auto;
+}
+
+.bloque .imgGaleria {
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 15px 0px 15px 0px;
+}
+
+.bloque.galeria {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 h2 {
     color: darkcyan;
     font-size: 26px;
 }
 
-main img {
+.bloque .imgPrincipal {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -75,4 +90,15 @@ main .infoPrincipal * {
 main .infoPrincipal h4 {
     font-size: 26px;
     color: darkcyan;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
 }
