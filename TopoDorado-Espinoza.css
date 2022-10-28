@@ -1,0 +1,75 @@
+
+/* Modificaciones a todo */
+*{
+    font-family: 'Acme', sans-serif;
+    font:bold;
+   padding: 0px;
+   margin:0;
+}
+/* Titulo principal */
+#Title{
+    font-family: 'Alfa Slab One', cursive;
+    font: bold;
+    background-color:rgba(215, 115, 62, 0.857);
+    padding: 0px;
+    margin: 0px;
+}
+/* Centrar imagen principal */
+.imagencita{
+    height: 300px;
+    position: relative;
+}
+.centrar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Titulo de imagenes */
+h1 {
+    font-family: 'Alfa Slab One', cursive;;
+    background-color:rgba(215, 115, 62, 0.857);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    padding: 20;
+    margin: 0;
+  }
+/* Textos */
+p{
+    margin: 5px;
+    height: 100px;
+}
+/* Imagenes adicionales*/
+.smallimg{
+    width: 350px;
+    height: 350px;   
+  }
+.imagencita{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+/* Texto abajo de imagen principal */
+article{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+/* Titulo "Mas Curiosidades" */
+h2{
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgba(215, 115, 62, 0.857);
+    padding:0px;
+    margin:0px;
+}
+li{
+    padding: 10px;
+}
+
+footer{
+    font-family: 'Alfa Slab One', cursive;
+    padding: 10px;
+}
